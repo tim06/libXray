@@ -54,3 +54,6 @@ require (
 	gvisor.dev/gvisor v0.0.0-20231202080848-1f7806d17489 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
 )
+
+replace github.com/xtls/xray-core v1.8.13 => github.com/tim06/xray-core v0.0.96
+replace github.com/sagernet/sing-shadowsocks v0.2.6 => github.com/tim06/sing-shadowsocks v0.0.68
