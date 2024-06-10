@@ -3,7 +3,7 @@
 prepare_go() {
     rm -f go.mod
     rm -f go.sum
-    go mod init github.com/xtls/libxray
+    go mod init github.com/tim06/libxray
     go mod tidy
 }
 
